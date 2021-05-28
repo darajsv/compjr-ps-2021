@@ -34,7 +34,7 @@
 		
 		function abreBau(){
 			console.log(hora+":"+minuto);
-			if(((hora<9 && minuto<50) || hora<10) && dia == 28){
+			if(((hora<9 && minuto<50) || hora<10) || dia != 28){
 				x.play();
 				document.getElementById("erro").style.display = "block";
 			}
